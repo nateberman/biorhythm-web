@@ -31,7 +31,7 @@ def makewave(request, month, day, year):
 	biorhythm_wave = {
 		'physical': physical,
 		'emotional': emotional,
-		'intelelctual': intellectual
+		'intellectual': intellectual
 	}
 
 	# convert biorhythm dictionary to json
