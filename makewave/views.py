@@ -6,7 +6,7 @@ import math
 from datetime import date, datetime
 
 # Create your views here.
-@require_GET()
+@require_http_methods(["GET"])
 def makewave(request, month, day, year):
 
 	# query data conversions for data creation
