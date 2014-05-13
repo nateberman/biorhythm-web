@@ -8,9 +8,9 @@ from datetime import date, datetime
 def makewave(request, month, day, year):
 
 	# query data conversions for data creation
-	year = int(year)
 	month = int(month)
 	day = int(day)
+	year = int(year)
 
 	# query date creation
 	birthday = date(year, month, day)
