@@ -9,5 +9,5 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    (r'^makewave/(?P<month>[0-9]{1:2})/(?P<day>[0-9]{1:2})/(?P<year>[0-9]{4})/$', 'makewave.views.makewave'),
+    (r'^makewave/(?P<month>[0-9]{:2})/(?P<day>[0-9]{:2})/(?P<year>[0-9]{4})/$', 'makewave.views.makewave'),
 )
